@@ -55,10 +55,10 @@ public class PracticaSelenium {
 		Select dropdown = new Select(driver.findElement(By.className("product_sort_container")));
 		dropdown.selectByValue("lohi");
 		
-		
+		driver.close();
 			}
 		
 		}
-			
+			//Ejercicio hacer login/agregar la backpack> click en carrito de comprar> checkout>llenar formulario>continue y finish
 
 
